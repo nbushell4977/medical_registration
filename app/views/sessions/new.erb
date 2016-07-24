@@ -1,0 +1,14 @@
+<% if @error %>
+<%= @error %>
+<% end %>
+
+<form class="form-signin" action="/sessions" method="post">
+  <h2 class="form-signin-heading">Log in</h2>
+  <label for="inputEmail" class="sr-only">Email</label>
+  <input name="user[email]" type="text" id="inputEmail" class="form-control" placeholder="Email" required="" autofocus="">
+  <br>
+  <label for="inputPassword" class="sr-only">Password</label>
+  <input name="user[password]" type="password" id="inputPassword" class="form-control" placeholder="Password" required="">
+  <br>
+  <button class="btn btn-lg btn-primary btn-block" type="submit">Log in</button>
+</form>
