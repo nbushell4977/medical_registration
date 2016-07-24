@@ -20,6 +20,23 @@ body {
   margin: 0;
 }
 
+#patient_sign_up {
+   background-image: url("Screen Shot 2016-07-24 at 4.20.01 PM.png");
+}
+
+#patient_sign_in {
+  background-image: url("Screen Shot 2016-07-24 at 4.19.30 PM.png");
+}
+
+#new_patient {
+  background-image: url("Screen Shot 2016-07-24 at 4.19.06 PM.png");
+}
+
+#index {
+  background-image: url("Screen Shot 2016-07-24 at 4.18.11 PM.png");
+
+}
+
 /* HTML5 display definitions
    ========================================================================== */
 
@@ -420,4 +437,7 @@ table {
 td,
 th {
   padding: 0;
+
+
 }
+

@@ -1,5 +1,5 @@
-get '/new_patient' do
-  erb :new_patient
+get '/patient_sign_up' do
+  erb :patient_sign_up
 end
 
 post '/patients' do
