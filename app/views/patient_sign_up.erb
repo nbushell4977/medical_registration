@@ -1,3 +1,5 @@
+<div id = "patient_sign_up">
+
 <form class="form-signup" action="/patients" method="post">
   <h2 class="form-signup-heading">Sign up</h2>
   <label for="inputFirstName" class="sr-only">First Name</label>
@@ -12,5 +14,25 @@
   <label for="inputPassword" class="sr-only">Password</label>
   <input name="patient[password]" type="password_digest" id="inputPassword" class="form-control" placeholder="Password" required="">
   <br>
+  <button type="submit"><a href= "/sessions/new">Sign up</a></button>
+  <label for="address" class="sr-only">Address</label>
+  <input name="patient[address]" type="text" id="inputAddress" class="form-control" placeholder="Address" required="">
+  <br>
+    <label for="inputSocialSecurityNumber" class="sr-only">Social Security Number</label>
+  <input name="patient[social_security_number]" type="integer" id="inputSocialSecurityNumber" class="form-control" placeholder="Password" required="">
+  <br>
+    <label for="inputPhoneNumber" class="sr-only">Phone Number</label>
+  <input name="patient[phone_number]" type="integer" id="inputPhoneNumber" class="form-control" placeholder="Phone Number" required="">
+  <br>
+    <label for="inputEmployer" class="sr-only">Employer</label>
+  <input name="patient[employer]" type="text" id="inputEmployer" class="form-control" placeholder="Employer" required="">
+  <br>
+  </form>
+  </div>
+
+
+
+
+
   <button type="submit"><a href= "/sessions/new">Sign up</a></button>
 </form>
