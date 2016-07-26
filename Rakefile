@@ -1,9 +1,9 @@
 require 'rake'
 
-require ::File.expand_path('../config/environment', __FILE__)
+# require ::File.expand_path('../config/environment', __FILE__)
 
 # Include all of ActiveSupport's core class extensions, e.g., String#camelize
-require 'active_support/core_ext'
+# require 'active_support/core_ext'
 
 namespace :generate do
   desc "Create an empty model in app/models, e.g., rake generate:model NAME=User"
@@ -87,13 +87,13 @@ namespace :db do
   desc "Drop, create, and migrate the database"
   task :reset => [:drop, :create, :migrate]
 
-  desc "Create the databases at #{DB_NAME}"
+  # desc "Create the databases at #{DB_NAME}"
   task :create do
     puts "Creating development and test databases if they don't exist..."
     system("createdb #{APP_NAME}_development && createdb #{APP_NAME}_test")
   end
 
-  desc "Drop the database at #{DB_NAME}"
+  # desc "Drop the database at #{DB_NAME}"
   task :drop do
     puts "Dropping development and test databases..."
     system("dropdb #{APP_NAME}_development && dropdb #{APP_NAME}_test")

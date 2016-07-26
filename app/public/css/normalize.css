@@ -18,10 +18,11 @@ html {
 
 body {
   margin: 0;
+  background-image: url("new_patient.png");
 }
 
 #patient_sign_up {
-   background-image: url("Screen Shot 2016-07-24 at 4.20.01 PM.png");
+   /*background-image: url("new_patient.png");*/
 }
 
 #patient_sign_in {
