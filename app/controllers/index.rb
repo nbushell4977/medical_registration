@@ -30,6 +30,12 @@ get '/sessions/new_patient' do
   erb :patient_sign_in
 end
 
+
+
 get '/new_practioner' do
-  erb :practioner_sign_up
+  "Hello World"
+end
+
+get '/sessions/new_practioner' do
+  "Hello World"
 end
